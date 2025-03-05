@@ -10,8 +10,6 @@
     let newTableName = '';
     let newRowData = {};
 
-    const fakeTables = ['users', 'orders', 'products', 'customers'];
-
     const fakeTableDetails = {
         users: {
             columns: ['id', 'name', 'email'],
